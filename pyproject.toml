@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tcsi"
+version = "0.1.0"
+description = "Tensor Completion using Subspace Information (arXiv:2609.24501)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Teddy Tennant"}]
+dependencies = ["jax", "numpy"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
