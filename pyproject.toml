@@ -12,5 +12,8 @@ license = {text = "MIT"}
 authors = [{name = "Teddy Tennant"}]
 dependencies = ["jax", "numpy"]
 
+[project.optional-dependencies]
+tests = ["pytest"]
+
 [tool.setuptools.packages.find]
 where = ["src"]
